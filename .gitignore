@@ -1,0 +1,38 @@
+# Godot 4+ specific ignores
+.godot/
+*.translation
+export.cfg
+export_presets.cfg
+.import/
+*.import
+
+# Mono / C#
+.mono/
+data_*/
+mono_crash.*.json
+
+# System / IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Builds & exports
+builds/
+export/
+*.apk
+*.aab
+*.ipa
+*.exe
+*.x86_64
+*.app
+
+# Local secrets / config
+*.local
+secrets/
+.env
